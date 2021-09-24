@@ -1,0 +1,8 @@
+prefix=/home/robond/Robotics_Project5/devel
+
+Name: pick_objects
+Description: Description of pick_objects
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robond/Robotics_Project5/devel/lib 
+Requires: 
