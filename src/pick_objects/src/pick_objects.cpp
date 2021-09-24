@@ -24,8 +24,8 @@ int main(int argc, char** argv){
   goal.target_pose.header.stamp = ros::Time::now();
 
   // Define a position and orientation for the robot to reach
-  goal.target_pose.pose.position.x = 5.0;
-  goal.target_pose.pose.position.x = 3.0;
+  goal.target_pose.pose.position.x = -2.0;
+  goal.target_pose.pose.position.y = 1.0;
   goal.target_pose.pose.orientation.w = 1.0;
 
    // Send the goal position and orientation for the robot to reach
@@ -47,9 +47,14 @@ int main(int argc, char** argv){
   ros::Duration(5.0).sleep();
 // -----------------------------------------------------------------------------------
 
+
+  // set up the frame parameters
+  goal.target_pose.header.frame_id = "map";
+  goal.target_pose.header.stamp = ros::Time::now();
+
   // Define a position and orientation for the robot to reach
-  goal.target_pose.pose.position.x = 1.0;
-  goal.target_pose.pose.position.x = 10.0;
+  goal.target_pose.pose.position.x = -3.0;
+  goal.target_pose.pose.position.y = -4.0;
   goal.target_pose.pose.orientation.w = 1.0;
 
    // Send the goal position and orientation for the robot to reach
@@ -60,12 +65,15 @@ int main(int argc, char** argv){
   ac.waitForResult();
 
   // Check if the robot reached its goal
-  if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+  if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED){
     ROS_INFO("Robot successfully reached the drop off goal");
-  else
+    ros::Duration(2.0).sleep();
+  }
+  else{
     ROS_INFO("The base failed to move to the drop off goal for some reason");
-
-
+  }
+  // Wait 10 sec
+  ros::Duration(10.0).sleep();
 
 
 
