@@ -26,7 +26,11 @@ int main(int argc, char** argv){
   // Define a position and orientation for the robot to reach
   goal.target_pose.pose.position.x = -2.0;
   goal.target_pose.pose.position.y = 1.0;
+  goal.target_pose.pose.position.z = 0.0;
   goal.target_pose.pose.orientation.w = 1.0;
+  goal.target_pose.pose.orientation.x = 0.0;
+  goal.target_pose.pose.orientation.y = 0.0;
+  goal.target_pose.pose.orientation.z = 0.0;
 
    // Send the goal position and orientation for the robot to reach
   ROS_INFO("Sending pickup goal");
@@ -49,14 +53,17 @@ int main(int argc, char** argv){
 
 
   // set up the frame parameters
-  goal.target_pose.header.frame_id = "map";
-  goal.target_pose.header.stamp = ros::Time::now();
+  //goal.target_pose.header.frame_id = "map";
+  //goal.target_pose.header.stamp = ros::Time::now();
 
   // Define a position and orientation for the robot to reach
   goal.target_pose.pose.position.x = -3.0;
   goal.target_pose.pose.position.y = -4.0;
+  goal.target_pose.pose.position.z = 0.0;
   goal.target_pose.pose.orientation.w = 1.0;
-
+  goal.target_pose.pose.orientation.x = 0.0;
+  goal.target_pose.pose.orientation.y = 0.0;
+  goal.target_pose.pose.orientation.z = 0.0;
    // Send the goal position and orientation for the robot to reach
   ROS_INFO("Sending drop off goal");
   ac.sendGoal(goal);
