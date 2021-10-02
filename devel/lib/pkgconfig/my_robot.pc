@@ -1,0 +1,8 @@
+prefix=/home/robond/Robotics_Project5/devel
+
+Name: my_robot
+Description: Description of my_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robond/Robotics_Project5/devel/lib 
+Requires: 

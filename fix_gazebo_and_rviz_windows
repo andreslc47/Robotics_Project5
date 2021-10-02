@@ -1,0 +1,18 @@
+#!/bin/bash
+
+wmctrl -r 'navigation.rviz - RViz' -e '0,0,0,1900,1050'
+wmctrl -r 'navigation.rviz* - RViz' -e '0,0,0,1900,1050'
+
+#wmctrl -r 'navigation.rviz - RViz' -e '0,1920,0,1900,1050'
+#wmctrl -r 'navigation.rviz* - RViz' -e '0,1920,0,1900,1050'
+
+#wmctrl -r 'Gazebo' -e '0,0,0,1500,800'
+
+#wmctrl -r 'Gazebo*' -e '0,0,0,1500,800'
+
+#wmctrl -r '/home/robond/Robotics_Project5/src/turtlebot/turtlebot_teleop/launch/keyboard_teleop.launch http://localhost:11311' -e '0,1920,1100,1500,800'
+#wmctrl -r '/home/robond/Robotics_Project5/src/turtlebot/turtlebot_teleop/launch/keyboard_teleop.launch http://localhost:11311' -e '0,0,0,500,500'
+
+
+
+
