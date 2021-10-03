@@ -16,9 +16,9 @@
     <param name="update_min_d" value="0.08"/>    <!-- 0.2 -->
     <param name="update_min_a" value="0.26"/>   <!-- 0.52 -->
     <param name="resample_interval" value="1"/> <!-- 2 -->
-    <param name="initial_pose_x" value="15.0"/>  <!-- 0.0 -->
-    <param name="initial_pose_y" value="15.0"/>  <!-- 0.0 -->
-    <param name="initial_pose_a" value="4.71"/>  <!-- 0.0 -->
+    <param name="initial_pose_x" value="0.0"/>  <!-- 0.0 -->
+    <param name="initial_pose_y" value="0.0"/>  <!-- 0.0 -->
+    <param name="initial_pose_a" value="0.0"/>  <!-- 0.0 -->
 
 
     <!-- Laser model parameters -->
@@ -39,7 +39,6 @@
     <param name="odom_frame_id" value="odom"/>               <!-- odom -->  
     <param name="base_frame_id" value="robot_footprint"/>    <!-- robot_footprint -->
     <param name="global_frame_id" value="map"/>              <!-- map -->
-
   </node>
 
   <!-- Move Base -->

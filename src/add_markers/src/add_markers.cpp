@@ -9,8 +9,8 @@
 double tolerance_distance = 0.8;
 double tolerance_vel_lin = 0.00001;
 double tolerance_vel_angular = 0.001;
-std::vector<double> pos_pick_up = {2.0,4.0};  // test:{-2.0,1.0}, UdacityOffice: {2.0,4.0}; 
-std::vector<double> pos_drop_off = {-1.0,2.0};  // test:{-3.0,-4.0}, UdacityOffice: {-1.0,2.0}; 
+std::vector<double> pos_pick_up = {1.0,3.0};  // test:{-2.0,1.0}, UdacityOffice: {2.0,4.0}; 
+std::vector<double> pos_drop_off = {0.5,-1.0};  // test:{-3.0,-4.0}, UdacityOffice: {-1.0,2.0}; 
 double scale_marker = 0.25;
 bool reached_pick_up = false;
 bool reached_drop_off = false;
