@@ -296,6 +296,19 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named add_markers_bk
+
+# Build rule for target.
+add_markers_bk: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_markers_bk
+.PHONY : add_markers_bk
+
+# fast build rule for target.
+add_markers_bk/fast:
+	$(MAKE) -f add_markers/CMakeFiles/add_markers_bk.dir/build.make add_markers/CMakeFiles/add_markers_bk.dir/build
+.PHONY : add_markers_bk/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -1787,6 +1800,7 @@ help:
 	@echo "... _catkin_empty_exported_target"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... add_markers_bk"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... visualization_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_py"
