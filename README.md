@@ -63,13 +63,9 @@ once downloaded:
       cd src/scripts
 
          ./test_slam.sh
-
          ./test_navigation.sh
-
          ./pick_objects.sh
-
          ./add_marker.sh
-
          ./home_service.sh
 
 
