@@ -2,7 +2,13 @@
 
 You could prefer to download the Project already configured:
 
+This one is the complete version:
 wget https://www.dropbox.com/s/ae2i6tz4gzr26fg/Robotics_Project5.zip
+
+This one is the version presented to Udacity:
+wget https://www.dropbox.com/s/8ux8s4zgirl2z9x/Project5_udacity.zip
+
+wget
 
 unzip Robotics_Project5.zip
 
