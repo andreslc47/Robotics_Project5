@@ -46,9 +46,13 @@ This one is the complete version:
 
 wget https://www.dropbox.com/s/ae2i6tz4gzr26fg/Robotics_Project5.zip
 
-This one is the version presented to Udacity:
+This one is the version presented to Udacity (from my Dropbox account)
 
 wget https://www.dropbox.com/s/b29ydipzsgkri9x/Project5_udacity.zip
+
+This one is the version presented to Udacity (from my GitHub account) (It is preferrable to use this one)
+
+wget https://github.com/andreslc47/Project5_udacity/raw/main/Project5_udacity.zip
 
 unzip Project5_udacity.zip
 
