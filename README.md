@@ -8,7 +8,7 @@ wget https://www.dropbox.com/s/ae2i6tz4gzr26fg/Robotics_Project5.zip
 
 This one is the version presented to Udacity:
 
-wget https://www.dropbox.com/s/b29ydipzsgkri9x/Project5_udacity.zip?dl=0
+wget https://www.dropbox.com/s/b29ydipzsgkri9x/Project5_udacity.zip
 
 unzip Project5_udacity.zip
 
