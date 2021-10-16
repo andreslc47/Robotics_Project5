@@ -48,7 +48,7 @@ Option 1: This one is the complete version (Dropbox account) (Use this if you wa
    
 Option 2: This one is the complete version (GitHub account) (Use this if you want to test the project using other map and my own robot)
    
-   wget 
+   wget https://github.com/andreslc47/Robotics_Project5/raw/main/Robotics_Project5.zip
 
 Option 3: This one is the version presented to Udacity (Dropbox account)
 
