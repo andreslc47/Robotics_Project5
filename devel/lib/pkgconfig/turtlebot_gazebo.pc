@@ -1,8 +1,0 @@
-prefix=/home/robond/Robotics_Project5/devel
-
-Name: turtlebot_gazebo
-Description: Description of turtlebot_gazebo
-Version: 2.2.3
-Cflags: 
-Libs: -L/home/robond/Robotics_Project5/devel/lib 
-Requires: 
