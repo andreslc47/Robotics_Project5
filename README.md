@@ -38,21 +38,21 @@ sudo apt-get -y install ros-kinetic-kobuki-ftdi
 
 sudo apt-get -y install ros-kinetic-ar-track-alvar-msgs
 
+cd /home/andres
 
+Download the Project (choose only one option)
 
-You could prefer to download the Project already configured:
+Option 1: This one is the complete version (Use this if youwant to test trhe project using other map and my robot)
 
-This one is the complete version:
+   wget https://www.dropbox.com/s/ae2i6tz4gzr26fg/Robotics_Project5.zip
 
-wget https://www.dropbox.com/s/ae2i6tz4gzr26fg/Robotics_Project5.zip
+Option 2: This one is the version presented to Udacity (from my Dropbox account)
 
-This one is the version presented to Udacity (from my Dropbox account)
+   wget https://www.dropbox.com/s/b29ydipzsgkri9x/Project5_udacity.zip
 
-wget https://www.dropbox.com/s/b29ydipzsgkri9x/Project5_udacity.zip
+Option 3: This one is the version presented to Udacity (from my GitHub account) (It is preferrable to use this one)
 
-This one is the version presented to Udacity (from my GitHub account) (It is preferrable to use this one)
-
-wget https://github.com/andreslc47/Project5_udacity/raw/main/Project5_udacity.zip
+   wget https://github.com/andreslc47/Project5_udacity/raw/main/Project5_udacity.zip
 
 unzip Project5_udacity.zip
 
@@ -65,9 +65,11 @@ cd src/scripts
 ./home_service.sh
 
 
+------------------------------------------------------------------------------------------------------------------
 
+If you want to build the project yourself:
 
-cd src
+cd /home/andres/Robotics_Project5/src
 
 git clone https://github.com/ros-perception/slam_gmapping.git
 
