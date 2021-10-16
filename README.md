@@ -43,12 +43,12 @@ cd /home/andres
 Download the Project (choose only one option)
 
 Option 1: This one is the complete version (Dropbox account) (Use this if you want to test the project using other map and my own robot)
-
-   wget https://www.dropbox.com/s/ae2i6tz4gzr26fg/Robotics_Project5.zip
+  
+   wget https://www.dropbox.com/s/esm39s66fce5d9l/Robotics_Project5.zip
    
 Option 2: This one is the complete version (GitHub account) (Use this if you want to test the project using other map and my own robot)
    
-   wget https://github.com/andreslc47/Robotics_Project5/raw/main/Robotics_Project5.zip
+   wget 
 
 Option 3: This one is the version presented to Udacity (Dropbox account)
 
