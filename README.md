@@ -107,8 +107,41 @@ once downloaded:
 
       ./home_service.sh
   
-   
-   
+   cd src/scripts/my_robot/simpleworld
+
+      ./test_slam.sh
+
+      ./test_navigation.sh
+
+      ./pick_objects.sh
+
+      ./add_marker.sh
+
+      ./home_service.sh
+      
+   cd src/scripts/turtlebot/udacityoffice
+
+      ./test_slam.sh
+
+      ./test_navigation.sh
+
+      ./pick_objects.sh
+
+      ./add_marker.sh
+
+      ./home_service.sh
+  
+   cd src/scripts/turtlebot/simpleworld
+
+      ./test_slam.sh
+
+      ./test_navigation.sh
+
+      ./pick_objects.sh
+
+      ./add_marker.sh
+
+      ./home_service.sh
 
 
 #############################
