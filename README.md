@@ -58,20 +58,25 @@ Option 4: This one is the version presented to Udacity (GitHub account)
 
    wget https://github.com/andreslc47/Project5_udacity/raw/main/Project5_udacity.zip
 
-unzip Project5_udacity.zip
+If you chose option 1 or option 2:
 
-cd Project5_udacity
+   unzip Project5_udacity.zip
 
-./compile_all
+   cd Project5_udacity
 
-cd src/scripts
+   ./compile_all
 
-./home_service.sh
+   cd src/scripts
+
+   ./home_service.sh
+
+If you chose option 3 or option 4:
+
 
 
 ------------------------------------------------------------------------------------------------------------------
 
-If you want to build the project yourself:
+If you chose to build the project yourself:
 
 cd /home/andres/Robotics_Project5/src
 
