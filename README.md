@@ -72,6 +72,15 @@ If you chose option 1 or option 2:
 
 If you chose option 3 or option 4:
 
+   unzip Robotics_Project5.zip
+
+   cd Robotics_Project5
+
+   ./compile_all
+
+   cd src/scripts
+
+   ./home_service.sh
 
 
 ------------------------------------------------------------------------------------------------------------------
