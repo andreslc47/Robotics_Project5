@@ -62,7 +62,15 @@ once downloaded:
 
    cd src/scripts
 
-   ./home_service.sh
+      ./test_slam.sh
+
+      ./test_navigation.sh
+
+      ./pick_objects.sh
+
+      ./add_marker.sh
+
+      ./home_service.sh
 
 
 ###########################
@@ -87,9 +95,20 @@ once downloaded:
 
    ./compile_all
 
-   cd src/scripts
+   cd src/scripts/my_robot/udacityoffice
 
-   ./home_service.sh
+      ./test_slam.sh
+
+      ./test_navigation.sh
+
+      ./pick_objects.sh
+
+      ./add_marker.sh
+
+      ./home_service.sh
+  
+   
+   
 
 
 #############################
@@ -116,7 +135,7 @@ git clone https://github.com/turtlebot/turtlebot_interactions.git
 
 git clone https://github.com/turtlebot/turtlebot_simulator.git
 
-and follow your own intuition to complete the restof the project ................... =)
+and follow your own intuition to complete the rest of the project ................... =)
 
 
 
