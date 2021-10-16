@@ -40,8 +40,9 @@ sudo apt-get -y install ros-kinetic-ar-track-alvar-msgs
 
 cd /home/andres
 
-####################################################
+##########################
 ORIGINAL PROJECT SUBMITTED
+##########################
 
 Option 1: Dropbox account:
 
@@ -64,8 +65,10 @@ once downloaded:
    ./home_service.sh
 
 
-####################################################
+###########################
 FULL VERSION OF THE PROJECT
+###########################
+
 Use this one if you want to test the previous project and the one using another map and my own robot
 
 Option 1: Dropbox account:
@@ -89,8 +92,9 @@ once downloaded:
    ./home_service.sh
 
 
-####################################################
-If you chose to build the full project yourself:
+##############################################
+IF YOU CHOOSE TO BUILD THE PROJECT BY YOURSELF
+##############################################
 
 mkdir -p /home/andres/Robotics_Project5/src
 
