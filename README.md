@@ -40,25 +40,18 @@ sudo apt-get -y install ros-kinetic-ar-track-alvar-msgs
 
 cd /home/andres
 
-Download the Project (choose only one option)
+####################################################
+ORIGINAL PROJECT SUBMITTED
 
-Option 1: This one is the complete version (Dropbox account) (Use this if you want to test the project using other map and my own robot)
-  
-   wget https://www.dropbox.com/s/esm39s66fce5d9l/Robotics_Project5.zip
-   
-Option 2: This one is the complete version (GitHub account) (Use this if you want to test the project using other map and my own robot)
-   
-   wget https://github.com/andreslc47/Robotics_Project5/raw/main/Robotics_Project5.zip
-
-Option 3: This one is the version presented to Udacity (Dropbox account)
+Option 1: Dropbox account:
 
    wget https://www.dropbox.com/s/b29ydipzsgkri9x/Project5_udacity.zip
 
-Option 4: This one is the version presented to Udacity (GitHub account)
+Option 2: GitHub account:
 
    wget https://github.com/andreslc47/Project5_udacity/raw/main/Project5_udacity.zip
 
-If you chose option 1 or option 2:
+once downloaded:
 
    unzip Project5_udacity.zip
 
@@ -70,7 +63,20 @@ If you chose option 1 or option 2:
 
    ./home_service.sh
 
-If you chose option 3 or option 4:
+
+####################################################
+FULL VERSION OF THE PROJECT
+Use this one if you want to test the previous project and the one using another map and my own robot
+
+Option 1: Dropbox account:
+
+   wget https://www.dropbox.com/s/esm39s66fce5d9l/Robotics_Project5.zip
+
+Option 2: GitHub account:
+
+   wget https://github.com/andreslc47/Robotics_Project5/raw/main/Robotics_Project5.zip
+
+once downloaded:
 
    unzip Robotics_Project5.zip
 
@@ -83,9 +89,18 @@ If you chose option 3 or option 4:
    ./home_service.sh
 
 
-------------------------------------------------------------------------------------------------------------------
+####################################################
+If you chose to build the full project yourself:
 
-If you chose to build the project yourself:
+mkdir -p /home/andres/Robotics_Project5/src
+
+cd /home/andres/Robotics_Project5/src
+
+catkin_init_workspace
+
+cd /home/andres/Robotics_Project5/
+
+catkin_make
 
 cd /home/andres/Robotics_Project5/src
 
@@ -96,6 +111,13 @@ git clone https://github.com/turtlebot/turtlebot.git
 git clone https://github.com/turtlebot/turtlebot_interactions.git
 
 git clone https://github.com/turtlebot/turtlebot_simulator.git
+
+and follow your own intuition to complete the restof the project ................... =)
+
+
+
+
+
 
 
 
