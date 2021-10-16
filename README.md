@@ -92,9 +92,9 @@ once downloaded:
    ./home_service.sh
 
 
-##############################################
-IF YOU CHOOSE TO BUILD THE PROJECT BY YOURSELF
-##############################################
+#############################
+BUILD THE PROJECT BY YOURSELF
+#############################
 
 mkdir -p /home/andres/Robotics_Project5/src
 
