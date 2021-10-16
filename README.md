@@ -1,6 +1,6 @@
 # Robotics_Project5
 
-wget https://www.dropbox.com/preview/PROYECTOS_UDACITY/Robotics_Project5.zip?context=browse&role=personal
+wget https://www.dropbox.com/s/ae2i6tz4gzr26fg/Robotics_Project5.zip?dl=0
 
 cd src
 
