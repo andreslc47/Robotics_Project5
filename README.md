@@ -1,8 +1,7 @@
 # Robotics_Project5
 
-sudo apt-get -y install xterm
-
-sudo apt-get -y install wmctrl
+   sudo apt-get -y install xterm
+   sudo apt-get -y install wmctrl
 
 sudo apt-get -y install ros-kinetic-joy
 
