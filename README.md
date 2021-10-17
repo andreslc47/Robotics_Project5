@@ -20,7 +20,7 @@
       sudo apt-get -y install ros-kinetic-kobuki-ftdi 
       sudo apt-get -y install ros-kinetic-ar-track-alvar-msgs
 
-      cd /home/andres
+      cd ~
 
 ##########################
 ORIGINAL PROJECT SUBMITTED
@@ -104,12 +104,12 @@ once downloaded:
 BUILD THE PROJECT BY YOURSELF
 #############################
 
-      mkdir -p /home/andres/Robotics_Project5/src
-      cd /home/andres/Robotics_Project5/src
+      mkdir -p ~/Robotics_Project5/src
+      cd ~/Robotics_Project5/src
       catkin_init_workspace
-      cd /home/andres/Robotics_Project5/
+      cd ~/Robotics_Project5/
       catkin_make
-      cd /home/andres/Robotics_Project5/src
+      cd ~/Robotics_Project5/src
       git clone https://github.com/ros-perception/slam_gmapping.git
       git clone https://github.com/turtlebot/turtlebot.git
       git clone https://github.com/turtlebot/turtlebot_interactions.git
